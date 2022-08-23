@@ -1,0 +1,62 @@
+/* IMPORT */
+@import "reseteo";
+@import "grids";
+@import "colores";
+@import "estructuras";
+
+/* ANIDAMIENTO */ 
+
+aside {
+    list-style: none;
+    span {
+        margin: 1%;
+        padding: 10px 10px;
+        }
+    }
+    
+form {
+    background-color: #D9D9D9;
+    text-align: left;
+    padding: 6%;
+    label {
+        font-weight: bold;
+        input {
+            padding: 1%;
+            font-weight: bold;
+            display: block;
+            width: 40%;
+            font-size: 1rem;
+            font-weight: 300;
+            line-height: 1.5;
+            color: #BBB6B6;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: 0.25rem;
+            textarea {
+                width: 60%;
+                height: 30vh;
+                legend {
+                    font-weight: bold;
+                    font-size: 24px;
+                    padding: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    div {
+        text-align: center;
+        p {
+            font-size: 16px
+        }
+    }
+
+
+                
+        
+    
+
+
+        
