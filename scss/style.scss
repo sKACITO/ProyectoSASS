@@ -1,8 +1,10 @@
 /* IMPORT */
-@import "reseteo";
+
 @import "grids";
 @import "colores";
 @import "estructuras";
+@import "reseteo";
+
 
 /* ANIDAMIENTO */ 
 
@@ -11,48 +13,54 @@ aside {
     span {
         margin: 1%;
         padding: 10px 10px;
+        width: 100%;
         }
     }
     
 form {
-    background-color: #D9D9D9;
+    background-color: $colorUno;
     text-align: left;
     padding: 6%;
-    label {
+    input {
+        padding: 1%;
         font-weight: bold;
-        input {
-            padding: 1%;
+        display: block;
+        width: 40%;
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 1.5;
+        color: $colorDos;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        label {
             font-weight: bold;
-            display: block;
-            width: 40%;
-            font-size: 1rem;
-            font-weight: 300;
-            line-height: 1.5;
-            color: #BBB6B6;
-            background-color: #fff;
-            background-clip: padding-box;
-            border: 1px solid #ced4da;
-            border-radius: 0.25rem;
-            textarea {
-                width: 60%;
-                height: 30vh;
-                legend {
-                    font-weight: bold;
-                    font-size: 24px;
-                    padding: 20px;
-                    }
-                }
             }
         }
     }
 
-    div {
-        text-align: center;
-        p {
-            font-size: 16px
+div {
+    text-align: center;
+    p {
+        font-size: 16px
         }
     }
 
+a {
+    list-style: none;
+    &:link {
+        text-decoration: none;
+        }
+    }
+    
+span {
+    list-style: none;
+    &:hover {
+        background-color: $colorDos;
+        border-left: solid 8px $colorTres; 
+            }
+    }
 
                 
         
